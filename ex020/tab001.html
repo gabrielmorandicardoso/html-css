@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(14, 73, 73);
+        }
+
+        table {
+            border: 1px solid red;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px solid black;
+        }
+
+        td.nomes {
+            text-align: left;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        td.familia {
+            font-weight: 500;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Familias</caption>
+        <thead>
+            <tr>
+                <th>familia</th>
+                <th>nomes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="familia">morandi</td>
+                <td class="nomes">Gabriel, Juliana, Sonia, Antonio</td>
+            </tr>
+
+            <tr>
+                <td class="familia">soares</td>
+                <td class="nomes">Ricardo, Leticia, Mateus, Filipe, João e Elaine</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>nossas familias</td>
+            </tr>
+        </tfoot>
+
+</table>
+</body>
+</html>
