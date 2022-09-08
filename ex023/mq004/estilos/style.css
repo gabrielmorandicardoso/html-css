@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-span#burger {
+span#burguer {
     background-color: rgb(54, 54, 54);
     display: block;
     color: white;
@@ -27,7 +27,7 @@ span#burger {
     padding: 10px;
     cursor: pointer;
 }
-span#burger:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 }
